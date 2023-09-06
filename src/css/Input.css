@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.input-btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.input-btn button{
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+    border: 1px #000 solid;
+    padding: 10px 20px;
+    background: none;
+}
+.input input{
+    padding: 10px;
+    font-size: 16px;
+}
